@@ -1,0 +1,9 @@
+services:
+  stand-rse-app:
+    build: .
+    #image: alpine:latest
+    container_name: stand-rse-app
+    ports:
+      - "41280:80"
+    volumes:
+      - "./src:/var/www/html"

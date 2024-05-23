@@ -1,0 +1,36 @@
+.bg-primary {
+    background-color: #d3d62e !important; /* apivia color green */
+}
+
+.bg-secondary {
+    background-color: #0a2d82 !important; /* apivia color blue */
+}
+
+.text-primary {
+    color: #d3d62e !important; /* apivia color green */
+}
+
+.border-primary {
+    border-color: #d3d62e !important; /* apivia color green */
+}
+
+.button:hover {
+    background-color: #d3d62e !important; /* apivia color green */
+    color: #0a2d82 !important; /* apivia color blue */
+}
+
+.button:hover a{
+    color: #0a2d82 !important; /* apivia color blue */
+}
+
+.hidden-image {
+    width: 200px;
+    height: 313px;
+}
+
+
+
+
+
+
+
