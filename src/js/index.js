@@ -1,5 +1,6 @@
 "use strict";
 
+// puzzle
 function displayImage(imageId) {
     const puzzleImage = document.getElementById('puzzleImage' + imageId)
     puzzleImage.classList.remove('d-none')

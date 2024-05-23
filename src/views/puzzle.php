@@ -23,4 +23,6 @@ require '../views/header.php';
     <!--<img src="../images/puzzle-image.jpg" alt="">-->
 </div>
 
+<a class="lien" href="javascript:location.reload();">Nouvelle partie</a>
+
 <?php require '../views/footer.php'; ?>
