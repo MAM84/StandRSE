@@ -10,23 +10,24 @@
     color: #d3d62e !important; /* apivia color green */
 }
 
-.border-primary {
-    border-color: #d3d62e !important; /* apivia color green */
+.text-secondary {
+    color: #0a2d82 !important; /* apivia color blue */
+}
+
+.border-secondary {
+    border-color: #0a2d82 !important; /* apivia color blue */
 }
 
 .button:hover {
-    background-color: #d3d62e !important; /* apivia color green */
-    color: #0a2d82 !important; /* apivia color blue */
-}
-
-.button:hover a{
-    color: #0a2d82 !important; /* apivia color blue */
+    background-color: #0a2d82 !important; /* apivia color blue */
+    color: #d3d62e !important; /* apivia color green */
 }
 
 .hidden-image {
-    width: 200px;
-    height: 313px;
+    width: 250px;
+    height: 250px;
 }
+
 
 
 

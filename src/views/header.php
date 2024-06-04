@@ -22,7 +22,7 @@
             var lettresTrouvees=0;		// Le nombre de lettres trouvées
             var fini=false;				// true si le jeu est terminé
 
-            mots[0]="PROTEGER LES PERSONNES AGEES";
+            mots[0]="PROTEGEONS NOS AINES";
             /*mots[1]="ANABELLE";
             mots[2]="POMPIER";
             mots[3]="OBELISQUE";
@@ -53,7 +53,7 @@
 
                 // On récupère la lettre du clavier et on met la touche en lightgreen (pour signaler qu'elle est cliquée)
                 var lettre=element.innerHTML;
-                changeCouleur(element,"lightGreen");
+                changeCouleur(element,"#d3d62e");
 
                 // On met la variable trouve à false;
                 var trouve=false;
@@ -83,17 +83,17 @@
                         // on affiche le mot, on fini le jeu
                     }
                 }
-                if(lettresTrouvees==tailleMot){
+                /*if(lettresTrouvees==tailleMot){
                     alert("Bravo ! Vous avez découvert le mot secret !");
                     fini=true;
-                }
+                }*/
             }
             -->
         </script>
     </head>
 
     <body>
-        <nav class="navbar bg-primary mb-5">
+        <nav class="navbar bg-primary mb-2">
             <div class="d-flex align-items-center w-100">
                 <div class="col-md-5 d-flex justify-content-start align-items-center ms-5">
                     <a href="../index.php">

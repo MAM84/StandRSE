@@ -3,7 +3,7 @@
 require '../views/header.php';
 ?>
 
-<div class="d-flex flex-column align-items-center">
+<div class="d-flex flex-column align-items-center mb-5">
     <div class="d-flex">
         <img id="puzzleImage1" src="../images/puzzle-image-1.jpg" alt="" class="d-none">
         <div id="hiddenImage1" class="hidden-image bg-secondary text-primary d-flex justify-content-center align-items-center fw-bold fs-1 border border-2 border-primary" onclick="displayImage(1)">1</div>
@@ -19,6 +19,14 @@ require '../views/header.php';
         <div id="hiddenImage5" class="hidden-image bg-secondary text-primary d-flex justify-content-center align-items-center fw-bold fs-1 border border-2 border-primary" onclick="displayImage(5)">5</div>
         <img id="puzzleImage6" src="../images/puzzle-image-6.jpg" alt="" class="d-none">
         <div id="hiddenImage6" class="hidden-image bg-secondary text-primary d-flex justify-content-center align-items-center fw-bold fs-1 border border-2 border-primary" onclick="displayImage(6)">6</div>
+    </div>
+    <div class="d-flex">
+        <img id="puzzleImage7" src="../images/puzzle-image-7.jpg" alt="" class="d-none">
+        <div id="hiddenImage7" class="hidden-image bg-secondary text-primary d-flex justify-content-center align-items-center fw-bold fs-1 border border-2 border-primary" onclick="displayImage(7)">7</div>
+        <img id="puzzleImage8" src="../images/puzzle-image-8.jpg" alt="" class="d-none">
+        <div id="hiddenImage8" class="hidden-image bg-secondary text-primary d-flex justify-content-center align-items-center fw-bold fs-1 border border-2 border-primary" onclick="displayImage(8)">8</div>
+        <img id="puzzleImage9" src="../images/puzzle-image-9.jpg" alt="" class="d-none">
+        <div id="hiddenImage9" class="hidden-image bg-secondary text-primary d-flex justify-content-center align-items-center fw-bold fs-1 border border-2 border-primary" onclick="displayImage(9)">9</div>
     </div>
     <!--<img src="../images/puzzle-image.jpg" alt="">-->
 </div>

@@ -3,7 +3,7 @@
 	background-color:fcd315;
 	/*border:1px solid black;*/
 	text-align:left;
-	width:60%;
+	width:80%;
 	padding:30px;
 	height:450px;
 }
@@ -15,7 +15,8 @@ h1 {
 }
 
 img.pendu {
-	float:right;
+	/*float:right;*/
+	margin-left: 250px;
 	margin-bottom: 50px;
 }
 
@@ -33,8 +34,9 @@ h2 {
 
 #mot td {
 	padding:10px;
-	background-color:#1ee193;
+	background-color:#d3d62e; /* apivia color green */
 	border:2px inset black;
+	color: #0a2d82; /* apivia color blue */
 	width:30px;
 	height:30px;
 	font-weight:bold;
@@ -55,8 +57,8 @@ h2 {
 #clavier td {
 	background-color:white;
 	border:1px solid black;
-	width:25px;
-	height:25px;
+	width:200px;
+	height:50px;
 	text-align:center;
 	font-weight:bold;
 	cursor:pointer;
@@ -72,4 +74,8 @@ a.lien:hover{
 	color: #d3d62e; /* apivia color green */
 	font-weight:bold;
 	text-decoration:none;
+}
+
+.white10, .white14 {
+	background-color: white !important;
 }
