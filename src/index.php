@@ -6,9 +6,15 @@ require 'views/header.php';
 <!-- timer et score -->
 <div class="d-flex justify content">
     <!-- timer -->
-    <div class="timer d-flex flex-column align-items-center justify-content-end col-md-3">
-        <button id="timer-start" class="button p-3 bg-primary border rounded-pill text-secondary fs-3 fw-bold">Start</button>
-        <div id="timer" class="fw-bold fs-1">15:00</div>
+    <div class="d-flex col-md-3 align-items-start">
+        <div class="timer d-flex flex-column align-items-center justify-content-end col-md-6">
+            <button id="timer-global-start" class="button p-3 bg-primary border rounded-pill text-secondary fs-3 fw-bold d-flex flex-column">Start <small>(global)</small></button>
+            <div id="timer-global" class="fw-bold fs-1">15:00</div>
+        </div>
+        <div class="timer d-flex flex-column align-items-center justify-content-end col-md-6">
+            <button id="timer-game-start" class="button p-3 bg-primary border rounded-pill text-secondary fs-3 fw-bold d-flex flex-column">Start <small>(jeu)</small></button>
+            <div id="timer-game" class="fw-bold fs-1">08:00</div>
+        </div>
     </div>
     <!-- score -->
     <div class="score col-md-9">
@@ -25,14 +31,17 @@ require 'views/header.php';
                 <tr>
                     <th scope="row d-flex">Score</th>
                     <td>
+                        <button class="button px-3 bg-primary border rounded-pill text-secondary fs-4 fw-bold me-3" type="button" onclick="decreaseScore(1)">-</button>
                         <button class="button px-3 bg-primary border rounded-pill text-secondary fs-4 fw-bold me-3" type="button" onclick="increaseScore(1)">+</button>
                         <span id="scoreEquipe1" class="fw-bold fs-4">0</span>
                     </td>
                     <td>
+                        <button class="button px-3 bg-primary border rounded-pill text-secondary fs-4 fw-bold me-3" type="button" onclick="decreaseScore(2)">-</button>
                         <button class="button px-3 bg-primary border rounded-pill text-secondary fs-4 fw-bold me-3" onclick="increaseScore(2)">+</button>
                         <span id="scoreEquipe2" class="fw-bold fs-4">0</span>
                     </td>
                     <td>
+                        <button class="button px-3 bg-primary border rounded-pill text-secondary fs-4 fw-bold me-3" type="button" onclick="decreaseScore(3)">-</button>
                         <button class="button px-3 bg-primary border rounded-pill text-secondary fs-4 fw-bold me-3" onclick="increaseScore(3)">+</button>
                         <span id="scoreEquipe3" class="fw-bold fs-4">0</span>
                     </td>

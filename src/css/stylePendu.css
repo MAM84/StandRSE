@@ -78,4 +78,5 @@ a.lien:hover{
 
 .white10, .white14 {
 	background-color: white !important;
+	border: none !important;
 }
