@@ -30,7 +30,8 @@ function diminuerTempsGlobal () {
 
 const timerGlobalStartElement = document.getElementById("timer-global-start")
 timerGlobalStartElement.addEventListener("click", function (e) {
-    setInterval(diminuerTempsGlobal, 1000)
+    timerGlobalStartElement.disabled = true;
+    setInterval(diminuerTempsGlobal, 1000);
 });
 
 // timer game
@@ -54,7 +55,8 @@ function diminuerTempsGame () {
 
 const timerGameStartElement = document.getElementById("timer-game-start")
 timerGameStartElement.addEventListener("click", function (e) {
-    setInterval(diminuerTempsGame, 1000)
+    timerGameStartElement.disabled = true;
+    setInterval(diminuerTempsGame, 1000);
 });
 
 // score
