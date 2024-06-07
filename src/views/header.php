@@ -92,16 +92,16 @@
         </script>
     </head>
 
-    <body>
+    <body class="overflow-hidden">
         <nav class="navbar bg-primary mb-2">
             <div class="d-flex align-items-center w-100">
-                <div class="col-md-5 d-flex justify-content-start align-items-center ms-5">
+                <div class="col-md-4 d-flex justify-content-start align-items-center ms-5">
                     <a href="../index.php">
                         <img src="/images/logo-apivia-courtage-blanc.svg" alt="" class="h-25 w-25">
                     </a>
                 </div>
-                <div class="col-md-7">
-                    <p class="d-flex justify-content-start align-items-center fw-bold fs-1">Stand RSE N°6</p>
+                <div class="col-md-8">
+                    <p class="d-flex justify-content-start align-items-START fw-bold fs-1 text-secondary">Stand RSE N°2 : SAV DES CONSOMMATEURS</p>
                 </div>
             </div>
         </nav>
