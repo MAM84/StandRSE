@@ -36,7 +36,7 @@ timerGlobalStartElement.addEventListener("click", function (e) {
 
 // timer game
 
-const departMinutesGame = 8
+const departMinutesGame = 10
 let tempsGame = departMinutesGame * 60
 
 const timerElementGame = document.getElementById("timer-game")
