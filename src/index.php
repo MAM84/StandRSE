@@ -13,7 +13,7 @@ require 'views/header.php';
         </div>
         <div class="timer d-flex flex-column align-items-center justify-content-end col-md-6">
             <button id="timer-game-start" class="button p-3 bg-primary border rounded-pill text-secondary fs-3 fw-bold d-flex flex-column">Start <small>(jeu)</small></button>
-            <div id="timer-game" class="fw-bold fs-1">08:00</div>
+            <div id="timer-game" class="fw-bold fs-1">10:00</div>
         </div>
     </div>
     <!-- score -->
